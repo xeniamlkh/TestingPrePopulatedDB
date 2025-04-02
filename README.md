@@ -1,8 +1,5 @@
 1) CSV
-2) DB Browser
-3) Create assets dir
-4) Error -> Unable to copy database file at androidx.room.SQLiteCopyOpenHelper.verifyDatabaseFile
-
-https://docs.google.com/document/d/1UnFdEcL3o4b_rTAh6AP-f44wjzaucRdweBDjpqSfSxc/edit?usp=drive_link
-
-https://drive.google.com/file/d/14ZHKe9slOj7_-Ke4GZW5G9foNWFOzqBQ/view?usp=drivesdk
+2) DB Browser - first row as headers!
+3) Create assets dir in the app/src/main/assets
+4) Add db to assets
+5) .createFromAsset("prepopulate_db.db") - DON'T specify a full path like assets/prepopulate_db.db
