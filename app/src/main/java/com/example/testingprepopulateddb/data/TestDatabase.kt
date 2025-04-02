@@ -20,7 +20,7 @@ abstract class TestDatabase : RoomDatabase() {
                     context.applicationContext,
                     TestDatabase::class.java,
                     "test_database"
-                ).createFromAsset("assets/room_db.db")
+                ).createFromAsset("room_db.db")
                     .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
